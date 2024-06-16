@@ -125,8 +125,8 @@ def generate_image(request: ImageRequest):
 
 
 if __name__ == "__main__":
-    # prompt = "A beautiful sunset over the ocean."
-    # txt2img(prompt, to_show=True)
-    # 使用 uvicorn 作為 ASGI 伺服器來運行應用程序
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    prompt = "A beautiful sunset over the ocean."
+    txt2img(prompt, to_show=True)
+    # # 使用 uvicorn 作為 ASGI 伺服器來運行應用程序
+    # uvicorn.run(app, host="127.0.0.1", port=8000)
     
